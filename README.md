@@ -1,27 +1,17 @@
-# Best Buy Properties – San Juan Batangas Highway Lot
+# Best Buy Properties – San Juan Batangas Highway Lot V4.1
 
-Static premium land-investment landing page for a 4,700 SQM property in Brgy. Muzon, San Juan, Batangas.
+Updated commercial land investment landing page.
 
-## Property
-- 4,700 SQM lot area
-- Along Rosario–San Juan Road
-- Directly across Petron Muzon
-- ₱2,500 per SQM, negotiable
-- Mother Title (Subdivided)
-- Commercial / Residential potential
+## Updates Included
+- Removed wrong Baesa locator map
+- Replaced with correct San Juan Batangas locator map
+- Changed hero pricing focus to ₱2,500/SQM Negotiable
+- Added total price only as supporting information
+- Replaced text-only graphics with realistic visual image sections
+- Added actual frontage, street view, and aerial map references
+- Static Render-ready deployment
 
-## Deploy on Render
-Recommended: Render **Static Site**
-
-- Build Command: leave blank
-- Publish Directory: `.`
-
-Alternative Web Service:
-- Build Command: leave blank
-- Start Command: `npm start`
-
-## Edit contact buttons
-Open `index.html` and update `tel:09152294361` and `sms:09152294361` if needed.
-
-## Analytics
-Paste your Google Analytics or Meta Pixel script before `</head>` in `index.html`.
+## Render Settings
+Build Command: `npm install && npm run build`
+Start Command: `npm start`
+Environment Variable: `NODE_VERSION = 20`

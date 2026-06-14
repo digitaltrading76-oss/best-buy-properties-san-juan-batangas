@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: best-buy-properties-sanjuan
+    name: best-buy-properties-san-juan-v4-1
     runtime: node
-    buildCommand: npm install
+    buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
